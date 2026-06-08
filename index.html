@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Saya</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Portfolio</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">Menu</button>
+      <nav class="site-nav" id="siteNav">
+        <a href="#about">Tentang</a>
+        <a href="#projects">Projek</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <p class="eyebrow">Hai, saya</p>
+        <h1>Nama Anda</h1>
+        <p class="hero-text">Saya seorang pengembang web yang membuat solusi desain modern, cepat, dan responsif untuk kebutuhan portofolio digital.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Lihat Projek</a>
+          <a class="button button-secondary" href="#contact">Hubungi Saya</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Tentang Saya</span>
+          <h2>Siapa saya</h2>
+        </div>
+        <div class="content-grid">
+          <div>
+            <p>Saya berfokus pada pembuatan website portofolio yang bersih, profesional, dan mudah digunakan. Saya memiliki kemampuan di bidang front-end, desain UI, dan pengembangan proyek berbasis web.</p>
+            <ul>
+              <li>Frontend development (HTML, CSS, JavaScript)</li>
+              <li>Desain responsif dan aksesibilitas</li>
+              <li>Optimisasi performa dan pengalaman pengguna</li>
+            </ul>
+          </div>
+          <div class="about-card">
+            <h3>Info Singkat</h3>
+            <p>Lokasi: Indonesia</p>
+            <p>Pengalaman: 1+ tahun</p>
+            <p>Bidang: Web Developer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Projek</span>
+          <h2>Beberapa karya terbaik</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Website Profil</h3>
+            <p>Desain portofolio personal dengan navigasi sederhana dan tampilan responsif di semua perangkat.</p>
+          </article>
+          <article class="project-card">
+            <h3>Landing Page Produk</h3>
+            <p>Halaman promosi produk digital dengan fokus pada visual dan ajakan tindak.</p>
+          </article>
+          <article class="project-card">
+            <h3>Aplikasi Web Interaktif</h3>
+            <p>Projek kecil dengan animasi sederhana dan pengalaman pengguna yang halus.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Keahlian</span>
+          <h2>Teknologi yang saya kuasai</h2>
+        </div>
+        <div class="skills-grid">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Responsive Design</span>
+          <span>Git & GitHub</span>
+          <span>Versi Kontrol</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Kontak</span>
+          <h2>Ayo bekerja sama</h2>
+        </div>
+        <div class="contact-card">
+          <p>Ingin tahu lebih lanjut atau punya proyek yang ingin dibahas? Silakan kirim email atau hubungi lewat media sosial.</p>
+          <ul>
+            <li>Email: <a href="mailto:email@domain.com">email@domain.com</a></li>
+            <li>GitHub: <a href="https://github.com/username" target="_blank" rel="noreferrer">github.com/username</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Nama Anda. Dibuat untuk GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
