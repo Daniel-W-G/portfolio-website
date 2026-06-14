@@ -1,6 +1,6 @@
 # Portofolio Website
 
-Situs portofolio statis ini siap dipublikasikan menggunakan GitHub Pages.
+Website portofolio Daniel Wicaksana Godjali (nim 18224114)
 
 ## Cara publish
 
@@ -17,6 +17,3 @@ Setelah beberapa saat, situs akan tersedia di `https://<username>.github.io/<rep
 - `styles.css` — gaya tampilan
 - `script.js` — logika menu dan tahun otomatis
 
-## Ganti konten
-
-Ubah teks `Nama Anda`, email, dan tautan GitHub di `index.html` sesuai identitas Anda.
